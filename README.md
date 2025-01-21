@@ -1,22 +1,31 @@
-**A Practical Guide to Quantum Cryptography: Future-Proofing Security in the Quantum Era**
+## A Practical Guide to Quantum Cryptography: Future-Proofing Security in the Quantum Era
 
 **Abstract**
+
 Quantum cryptography is a revolutionary approach to secure communication that protects against the growing threats posed by quantum computers. This paper breaks down the fundamental concepts of quantum cryptography, explains how it works, discusses the potential risks from quantum computing, and highlights practical applications. We also explore post-quantum cryptographic techniques to future-proof security.
 
 **1. Introduction**
+
 In today's digital world, where cyber threats are becoming increasingly sophisticated, securing sensitive information is more critical than ever. Traditional encryption methods like RSA and ECC rely on complex mathematical problems that could be easily solved by powerful quantum computers. Quantum cryptography uses the principles of quantum mechanics to create highly secure encryption methods, ensuring data remains safe even in the quantum era.
 
 **2. Why Quantum Cryptography Matters**
+
 Quantum computers have the potential to break widely used encryption methods by running algorithms like Shor’s algorithm, which can efficiently factor large numbers and solve discrete logarithm problems. As a result, it is crucial to adopt cryptographic systems that can resist quantum attacks and provide long-term data protection.
 
 **3. Key Concepts in Quantum Cryptography**
+
 Quantum cryptography is based on principles of quantum mechanics, including:
 
-- **Quantum Superposition:** A qubit can represent multiple states at once, unlike classical bits. This property allows secure data encoding and enhanced encryption strength.
-- **Quantum Entanglement:** Two particles become interconnected in such a way that the state of one instantly influences the other, enabling secure key exchange.
-- **No-Cloning Theorem:** Quantum information cannot be copied without disturbing its state, ensuring secure communication by detecting eavesdropping attempts.
+ **Quantum Superposition:**
+- A qubit can represent multiple states at once, unlike classical bits. This property allows secure data encoding and enhanced encryption strength.
+  
+ **Quantum Entanglement:**
+ Two particles become interconnected in such a way that the state of one instantly influences the other, enabling secure key exchange.
+**No-Cloning Theorem:**
+- Quantum information cannot be copied without disturbing its state, ensuring secure communication by detecting eavesdropping attempts.
 
 **4. Practical Example of Quantum Key Distribution (QKD)**
+
 Quantum Key Distribution (QKD) is a widely used application of quantum cryptography, enabling two parties to generate a shared secret key securely. The BB84 protocol, for example, transmits photons over a quantum channel. If an eavesdropper tries to intercept the transmission, the state of the photons changes, alerting the communicating parties.
 
 Example code to simulate key exchange:
