@@ -1,4 +1,4 @@
-**Title: Understanding Quantum Cryptography: A Practical Guide to Future-Proof Security**
+**Understanding Quantum Cryptography: A Practical Guide to Future-Proof Security**
 
 **Abstract**
 Quantum cryptography is a revolutionary approach to secure communication that protects against the growing threats posed by quantum computers. This paper breaks down the fundamental concepts of quantum cryptography, explains how it works, discusses the potential risks from quantum computing, and highlights practical applications. We also explore post-quantum cryptographic techniques to future-proof security.
